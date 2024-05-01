@@ -1,6 +1,6 @@
 body {
         background: linear-gradient(to bottom, #1c4ff7, #16eb56);
-        display: flex;
+        display: justify;
         flex-direction: column;
         min-height: 100vh;
         font-family: 'inter', sans-serif;
