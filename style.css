@@ -1,9 +1,9 @@
 body {
-        background: linear-gradient(to bottom, #1c4ff7, #16eb56);
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-        font-family: 'inter', sans-serif;
+    background: linear-gradient(to bottom, #1c4ff7, #16eb56);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'inter', sans-serif;
 }
 
 .container {
@@ -25,6 +25,7 @@ body {
     padding: 30px;
     width: 350px;
 }
+
 .profile-card {
     background-image: url('img/1.jpg');
     background-size: cover;
@@ -47,14 +48,10 @@ body {
     margin-bottom: 10px;
 }
 
-.profile-name {
-    color:#ffffff;
-    margin-bottom: 10px;
-}
-
+.profile-name,
 .profile-description {
-    color:#ffffff;
-    margin-bottom: 40px;
+    color: #ffffff;
+    margin-bottom: 10px;
 }
 
 .social-links {
@@ -73,4 +70,18 @@ body {
     height: 30px;
     border-radius: 15%;
     background-color: #ffffff;
+}
+
+/* Media Query for Smartphones */
+@media only screen and (max-width: 600px) {
+    .profile {
+        width: 90%;
+    }
+    .profile-card {
+        width: 90%;
+    }
+    .profile-img {
+        width: 150px;
+        height: 150px;
+    }
 }
