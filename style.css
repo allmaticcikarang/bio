@@ -7,10 +7,9 @@ body {
 }
 
 .container {
-    display: flex;
+    display: center;
     justify-content: center;
     align-items: center;
-    margin-right: 10px;
     height: 100vh;
 }
 
