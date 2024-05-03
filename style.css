@@ -75,7 +75,7 @@ body {
 /* Media Query for Smartphones */
 @media only screen and (max-width: 600px) {
     .profile {
-        width: 200%;
+        width: 190%;
     }
     .profile-card {
         width: 200%;
