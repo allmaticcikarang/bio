@@ -75,10 +75,10 @@ body {
 /* Media Query for Smartphones */
 @media only screen and (max-width: 600px) {
     .profile {
-        width: 190%;
+        width: 200%;
     }
     .profile-card {
-        width: 200%;
+        width: 180%;
     }
     .profile-img {
         width: 200px;
